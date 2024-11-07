@@ -6,13 +6,13 @@
     <div class="row">
         <div class="col">
             <h1 class="text-center text-success mb-3">
-                Types index
+                Categorie
             </h1>
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-auto">
                 <table class="table">
                     <thead>
                       <tr>

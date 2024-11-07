@@ -11,8 +11,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-auto">
                 <table class="table">
                     <thead>
                       <tr>

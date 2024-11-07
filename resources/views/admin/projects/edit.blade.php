@@ -98,8 +98,9 @@
                       </div>
                     @endforeach
                 </div>
-                
                 <button type="submit" class="btn btn-warning">+ Modifica</button>
+                <a class="btn btn-secondary" href="{{ route('admin.projects.index') }}">Annulla</a>
+              
               </form> 
             </div>
         </div>

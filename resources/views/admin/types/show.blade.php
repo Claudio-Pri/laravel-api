@@ -25,7 +25,7 @@
                   <a href="{{ route('admin.types.edit', ['type' => $type->id ]) }}" class="btn btn-outline-success">Modifica</a>
                 </div>
                 <div>
-                  <a href="{{ route('admin.types.index') }}">Torna all'index</a>
+                  <a href="{{ route('admin.types.index') }}">Torna alle categorie</a>
                 </div>
             </div>
         </div>
