@@ -23,7 +23,10 @@ Route::name('api.')->group(function() {
     Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
         return $request->user();
     });
-    
+
+    // Rotta index
     Route::get('/projects', [ProjectController::class, 'index'])->name('projects.index');
+    // Rotta show
+    Route::get('/projects/{slug}', [ProjectController::class, 'show'])->name('projects.show');
 });
 
