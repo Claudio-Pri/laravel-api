@@ -33,7 +33,7 @@ class ProjectController extends Controller
                 'success' => true,
                 'code' => 200,
                 'message' => 'OK',
-                'projects' => $projects
+                'project' => $project
             ]);
         }
         else {
